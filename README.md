@@ -1,2 +1,2 @@
-# setup
+# Setup Java
 Setup environment
