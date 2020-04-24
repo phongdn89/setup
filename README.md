@@ -27,3 +27,6 @@ sudo update-alternatives --set javac /usr/java/jdk1.8.0_221/bin/javac
 update-alternatives --list java
 
 update-alternatives --list javac
+
+# Setup maven
+https://www.javahelps.com/2017/10/install-apache-maven-on-linux.html
