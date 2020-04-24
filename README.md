@@ -1,3 +1,5 @@
+# Format readme.md github
+https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
 # Setup Java
 https://www.javahelps.com/2015/03/install-oracle-jdk-in-ubuntu.html
 
