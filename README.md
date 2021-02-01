@@ -32,3 +32,14 @@ update-alternatives --list javac
 
 # Setup maven
 https://www.javahelps.com/2017/10/install-apache-maven-on-linux.html
+
+# Problem password mysql 5.7 first time CentOS 7
+* Open & Edit /etc/my.cnf or /etc/mysql/my.cnf, depending on your distro.
+* Add skip-grant-tables under [mysqld]
+* Restart Mysql
+* You should be able to login to mysql now using the below command mysql -u root -p
+* Run mysql> flush privileges;
+* Set new password by ALTER USER 'root'@'localhost' IDENTIFIED BY 'NewPassword';
+* Go back to /etc/my.cnf and remove/comment skip-grant-tables
+* Restart Mysql
+* Now you will be able to login with the new password mysql -u root -p
