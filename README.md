@@ -32,6 +32,7 @@ update-alternatives --list javac
 
 # Switch all version Java on Ubuntu
 https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04
+https://dzone.com/articles/installing-openjdk-11-on-ubuntu-1804-for-real
 
 # Setup maven
 https://www.javahelps.com/2017/10/install-apache-maven-on-linux.html
